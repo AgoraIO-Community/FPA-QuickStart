@@ -1,0 +1,6 @@
+# sdk path
+sdk.dir=/your/android/sdk/root/path
+
+# only build for agora special code
+# more help @daijinguo
+is_agora_demo=true

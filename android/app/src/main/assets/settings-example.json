@@ -1,0 +1,34 @@
+{
+  "app_id": "You App Id",
+  "http_chain_info": {
+    "fallback": true,
+    "chain_info": [
+      {
+        "chain_id": 103,
+        "domain": "your-app-host.com",
+        "port": 443,
+        "fallback": true
+      },
+      {
+        "chain_id": 102,
+        "domain": "your-app-host.com",
+        "port": 80,
+        "fallback": true
+      },
+      {
+        "chain_id": 101,
+        "domain": "1.2.3.4",
+        "port": 80,
+        "fallback": true
+      },
+      {
+        "chain_id": 100,
+        "domain": "1.2.3.4",
+        "port": 443,
+        "fallback": true
+      }
+    ]
+  },
+  "http_request_host": "your-app-host.com",
+  "http_request_ip": "1.2.3.4"
+}

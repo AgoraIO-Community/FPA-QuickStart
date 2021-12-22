@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FPA</string>
+
+    <string name="strHttpDownload">HTTP下载</string>
+    <string name="strHttpUpload">HTTP上传</string>
+
+    <string name="strTransparent">透明代理</string>
+
+</resources>
