@@ -97,6 +97,13 @@ public final class FpaLogicManager {
             return -1;
         }
 
+        String strSDKInfo = "\t\n" +
+                "********************************************************************************\n" +
+                "   SDK Version: " + FpaProxyService.getSdkVersion() + "\n" +
+                "SDK build Info: " + FpaProxyService.getSdkBuildInfo() + "\n" +
+                "********************************************************************************\n";
+        Log.e(TAG, strSDKInfo);
+
         if (null == mHttpConfigBuilder) {
             if (null == mSettings) {
                 throw new RuntimeException("null object when get http port, call init(AbstractFpaSettings settings) first");
