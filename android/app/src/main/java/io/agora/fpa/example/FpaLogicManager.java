@@ -14,6 +14,7 @@ import java.net.Proxy;
 import java.net.Socket;
 import java.util.concurrent.TimeUnit;
 
+import io.agora.fpa.proxy.FailedReason;
 import io.agora.fpa.proxy.FpaChainInfo;
 import io.agora.fpa.proxy.FpaHttpProxyChainConfig;
 import io.agora.fpa.proxy.FpaProxyConnectionInfo;
@@ -180,8 +181,19 @@ public final class FpaLogicManager {
 
     private final IFpaServiceListener mListener = new IFpaServiceListener() {
         @Override
-        public void onProxyEvent(int eventCode, @Nullable FpaProxyConnectionInfo info, int errorCode) {
-            Log.e(TAG, "event=" + eventCode + " info: " + info + " error=" + errorCode);
+        public void onAccelerationSuccess(@Nullable FpaProxyConnectionInfo info) {
+        }
+
+        @Override
+        public void onConnected(@Nullable FpaProxyConnectionInfo info) {
+        }
+
+        @Override
+        public void onConnectionFailed(@Nullable FpaProxyConnectionInfo info, FailedReason reason) {
+        }
+
+        @Override
+        public void onDisconnectedAndFallback(@Nullable FpaProxyConnectionInfo info, FailedReason reason) {
         }
     };
 
