@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		933FC773796DB77092FF49BD /* libPods-FPAQuickStart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5583627B8A8E93A6DDA77C1D /* libPods-FPAQuickStart.a */; };
+		D91181D127741B87001247D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D91181D027741B87001247D9 /* AppDelegate.m */; };
+		D91181D427741B87001247D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D91181D327741B87001247D9 /* SceneDelegate.m */; };
+		D91181D727741B87001247D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91181D627741B87001247D9 /* ViewController.m */; };
+		D91181DA27741B87001247D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91181D827741B87001247D9 /* Main.storyboard */; };
+		D91181DC27741B8C001247D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91181DB27741B8C001247D9 /* Assets.xcassets */; };
+		D91181DF27741B8C001247D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91181DD27741B8C001247D9 /* LaunchScreen.storyboard */; };
+		D91181E227741B8C001247D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D91181E127741B8C001247D9 /* main.m */; };
+		D91181EC27741B8D001247D9 /* FPAQuickStartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D91181EB27741B8D001247D9 /* FPAQuickStartTests.m */; };
+		D91181F727741B8D001247D9 /* FPAQuickStartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D91181F627741B8D001247D9 /* FPAQuickStartUITests.m */; };
+		D911820A27742285001247D9 /* FpaHttpTester.m in Sources */ = {isa = PBXBuildFile; fileRef = D911820927742285001247D9 /* FpaHttpTester.m */; };
+		D911820D27742518001247D9 /* TransparentProxyTester.m in Sources */ = {isa = PBXBuildFile; fileRef = D911820C27742518001247D9 /* TransparentProxyTester.m */; };
+		D948B7C62786996900E01DAB /* settings-example.json in Resources */ = {isa = PBXBuildFile; fileRef = D948B7C32786996900E01DAB /* settings-example.json */; };
+		D948B7C72786996900E01DAB /* 1MB.txt in Resources */ = {isa = PBXBuildFile; fileRef = D948B7C42786996900E01DAB /* 1MB.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D91181E827741B8D001247D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D91181C427741B87001247D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D91181CB27741B87001247D9;
+			remoteInfo = FPAQuickStart;
+		};
+		D91181F327741B8D001247D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D91181C427741B87001247D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D91181CB27741B87001247D9;
+			remoteInfo = FPAQuickStart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EB2AFBEB8789EFAA7FD734C /* Pods-FPAQuickStart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPAQuickStart.release.xcconfig"; path = "Target Support Files/Pods-FPAQuickStart/Pods-FPAQuickStart.release.xcconfig"; sourceTree = "<group>"; };
+		46CDC6F4EEA5614478855D2F /* Pods-FPAQuickStart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPAQuickStart.debug.xcconfig"; path = "Target Support Files/Pods-FPAQuickStart/Pods-FPAQuickStart.debug.xcconfig"; sourceTree = "<group>"; };
+		5583627B8A8E93A6DDA77C1D /* libPods-FPAQuickStart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FPAQuickStart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91181CC27741B87001247D9 /* FPAQuickStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPAQuickStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91181CF27741B87001247D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D91181D027741B87001247D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D91181D227741B87001247D9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D91181D327741B87001247D9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D91181D527741B87001247D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D91181D627741B87001247D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D91181D927741B87001247D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D91181DB27741B8C001247D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D91181DE27741B8C001247D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D91181E027741B8C001247D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D91181E127741B8C001247D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D91181E727741B8D001247D9 /* FPAQuickStartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FPAQuickStartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91181EB27741B8D001247D9 /* FPAQuickStartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPAQuickStartTests.m; sourceTree = "<group>"; };
+		D91181ED27741B8D001247D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D91181F227741B8D001247D9 /* FPAQuickStartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FPAQuickStartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91181F627741B8D001247D9 /* FPAQuickStartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPAQuickStartUITests.m; sourceTree = "<group>"; };
+		D91181F827741B8D001247D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D911820827742284001247D9 /* FpaHttpTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FpaHttpTester.h; sourceTree = "<group>"; };
+		D911820927742285001247D9 /* FpaHttpTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FpaHttpTester.m; sourceTree = "<group>"; };
+		D911820B27742518001247D9 /* TransparentProxyTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentProxyTester.h; sourceTree = "<group>"; };
+		D911820C27742518001247D9 /* TransparentProxyTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentProxyTester.m; sourceTree = "<group>"; };
+		D948B7C32786996900E01DAB /* settings-example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "settings-example.json"; sourceTree = "<group>"; };
+		D948B7C42786996900E01DAB /* 1MB.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1MB.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D91181C927741B87001247D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933FC773796DB77092FF49BD /* libPods-FPAQuickStart.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91181E427741B8D001247D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91181EF27741B8D001247D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52F39F304CA2D185649A942F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46CDC6F4EEA5614478855D2F /* Pods-FPAQuickStart.debug.xcconfig */,
+				2EB2AFBEB8789EFAA7FD734C /* Pods-FPAQuickStart.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		62CB747A35C0072A4B04B183 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5583627B8A8E93A6DDA77C1D /* libPods-FPAQuickStart.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D91181C327741B87001247D9 = {
+			isa = PBXGroup;
+			children = (
+				D91181CE27741B87001247D9 /* FPAQuickStart */,
+				D91181EA27741B8D001247D9 /* FPAQuickStartTests */,
+				D91181F527741B8D001247D9 /* FPAQuickStartUITests */,
+				D91181CD27741B87001247D9 /* Products */,
+				52F39F304CA2D185649A942F /* Pods */,
+				62CB747A35C0072A4B04B183 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D91181CD27741B87001247D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D91181CC27741B87001247D9 /* FPAQuickStart.app */,
+				D91181E727741B8D001247D9 /* FPAQuickStartTests.xctest */,
+				D91181F227741B8D001247D9 /* FPAQuickStartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D91181CE27741B87001247D9 /* FPAQuickStart */ = {
+			isa = PBXGroup;
+			children = (
+				D948B7C22786996900E01DAB /* Resource */,
+				D91181CF27741B87001247D9 /* AppDelegate.h */,
+				D91181D027741B87001247D9 /* AppDelegate.m */,
+				D91181D227741B87001247D9 /* SceneDelegate.h */,
+				D91181D327741B87001247D9 /* SceneDelegate.m */,
+				D91181D527741B87001247D9 /* ViewController.h */,
+				D91181D627741B87001247D9 /* ViewController.m */,
+				D911820B27742518001247D9 /* TransparentProxyTester.h */,
+				D911820C27742518001247D9 /* TransparentProxyTester.m */,
+				D911820827742284001247D9 /* FpaHttpTester.h */,
+				D911820927742285001247D9 /* FpaHttpTester.m */,
+				D91181D827741B87001247D9 /* Main.storyboard */,
+				D91181DB27741B8C001247D9 /* Assets.xcassets */,
+				D91181DD27741B8C001247D9 /* LaunchScreen.storyboard */,
+				D91181E027741B8C001247D9 /* Info.plist */,
+				D91181E127741B8C001247D9 /* main.m */,
+			);
+			path = FPAQuickStart;
+			sourceTree = "<group>";
+		};
+		D91181EA27741B8D001247D9 /* FPAQuickStartTests */ = {
+			isa = PBXGroup;
+			children = (
+				D91181EB27741B8D001247D9 /* FPAQuickStartTests.m */,
+				D91181ED27741B8D001247D9 /* Info.plist */,
+			);
+			path = FPAQuickStartTests;
+			sourceTree = "<group>";
+		};
+		D91181F527741B8D001247D9 /* FPAQuickStartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D91181F627741B8D001247D9 /* FPAQuickStartUITests.m */,
+				D91181F827741B8D001247D9 /* Info.plist */,
+			);
+			path = FPAQuickStartUITests;
+			sourceTree = "<group>";
+		};
+		D948B7C22786996900E01DAB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D948B7C32786996900E01DAB /* settings-example.json */,
+				D948B7C42786996900E01DAB /* 1MB.txt */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D91181CB27741B87001247D9 /* FPAQuickStart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D91181FB27741B8D001247D9 /* Build configuration list for PBXNativeTarget "FPAQuickStart" */;
+			buildPhases = (
+				AD016C55804CF49D39534631 /* [CP] Check Pods Manifest.lock */,
+				D91181C827741B87001247D9 /* Sources */,
+				D91181C927741B87001247D9 /* Frameworks */,
+				D91181CA27741B87001247D9 /* Resources */,
+				EDD394325B485D97C8E3660D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FPAQuickStart;
+			productName = FPAQuickStart;
+			productReference = D91181CC27741B87001247D9 /* FPAQuickStart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D91181E627741B8D001247D9 /* FPAQuickStartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D91181FE27741B8D001247D9 /* Build configuration list for PBXNativeTarget "FPAQuickStartTests" */;
+			buildPhases = (
+				D91181E327741B8D001247D9 /* Sources */,
+				D91181E427741B8D001247D9 /* Frameworks */,
+				D91181E527741B8D001247D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D91181E927741B8D001247D9 /* PBXTargetDependency */,
+			);
+			name = FPAQuickStartTests;
+			productName = FPAQuickStartTests;
+			productReference = D91181E727741B8D001247D9 /* FPAQuickStartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D91181F127741B8D001247D9 /* FPAQuickStartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D911820127741B8D001247D9 /* Build configuration list for PBXNativeTarget "FPAQuickStartUITests" */;
+			buildPhases = (
+				D91181EE27741B8D001247D9 /* Sources */,
+				D91181EF27741B8D001247D9 /* Frameworks */,
+				D91181F027741B8D001247D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D91181F427741B8D001247D9 /* PBXTargetDependency */,
+			);
+			name = FPAQuickStartUITests;
+			productName = FPAQuickStartUITests;
+			productReference = D91181F227741B8D001247D9 /* FPAQuickStartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D91181C427741B87001247D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D91181CB27741B87001247D9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D91181E627741B8D001247D9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D91181CB27741B87001247D9;
+					};
+					D91181F127741B8D001247D9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D91181CB27741B87001247D9;
+					};
+				};
+			};
+			buildConfigurationList = D91181C727741B87001247D9 /* Build configuration list for PBXProject "FPAQuickStart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D91181C327741B87001247D9;
+			productRefGroup = D91181CD27741B87001247D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D91181CB27741B87001247D9 /* FPAQuickStart */,
+				D91181E627741B8D001247D9 /* FPAQuickStartTests */,
+				D91181F127741B8D001247D9 /* FPAQuickStartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D91181CA27741B87001247D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91181DF27741B8C001247D9 /* LaunchScreen.storyboard in Resources */,
+				D948B7C72786996900E01DAB /* 1MB.txt in Resources */,
+				D91181DC27741B8C001247D9 /* Assets.xcassets in Resources */,
+				D91181DA27741B87001247D9 /* Main.storyboard in Resources */,
+				D948B7C62786996900E01DAB /* settings-example.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91181E527741B8D001247D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91181F027741B8D001247D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD016C55804CF49D39534631 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FPAQuickStart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDD394325B485D97C8E3660D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FPAQuickStart/Pods-FPAQuickStart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FPAQuickStart/Pods-FPAQuickStart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FPAQuickStart/Pods-FPAQuickStart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D91181C827741B87001247D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D911820D27742518001247D9 /* TransparentProxyTester.m in Sources */,
+				D91181D727741B87001247D9 /* ViewController.m in Sources */,
+				D911820A27742285001247D9 /* FpaHttpTester.m in Sources */,
+				D91181D127741B87001247D9 /* AppDelegate.m in Sources */,
+				D91181E227741B8C001247D9 /* main.m in Sources */,
+				D91181D427741B87001247D9 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91181E327741B8D001247D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91181EC27741B8D001247D9 /* FPAQuickStartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91181EE27741B8D001247D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91181F727741B8D001247D9 /* FPAQuickStartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D91181E927741B8D001247D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D91181CB27741B87001247D9 /* FPAQuickStart */;
+			targetProxy = D91181E827741B8D001247D9 /* PBXContainerItemProxy */;
+		};
+		D91181F427741B8D001247D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D91181CB27741B87001247D9 /* FPAQuickStart */;
+			targetProxy = D91181F327741B8D001247D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D91181D827741B87001247D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91181D927741B87001247D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D91181DD27741B8C001247D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91181DE27741B8C001247D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D91181F927741B8D001247D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D91181FA27741B8D001247D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D91181FC27741B8D001247D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46CDC6F4EEA5614478855D2F /* Pods-FPAQuickStart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FPAQuickStart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agora.FPA.FPAQuickStart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D91181FD27741B8D001247D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB2AFBEB8789EFAA7FD734C /* Pods-FPAQuickStart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FPAQuickStart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agora.FPA.FPAQuickStart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D91181FF27741B8D001247D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FPAQuickStartTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agora.FPA.FPAQuickStartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FPAQuickStart.app/FPAQuickStart";
+			};
+			name = Debug;
+		};
+		D911820027741B8D001247D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FPAQuickStartTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agora.FPA.FPAQuickStartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FPAQuickStart.app/FPAQuickStart";
+			};
+			name = Release;
+		};
+		D911820227741B8D001247D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FPAQuickStartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agora.FPA.FPAQuickStartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FPAQuickStart;
+			};
+			name = Debug;
+		};
+		D911820327741B8D001247D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FPAQuickStartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agora.FPA.FPAQuickStartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FPAQuickStart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D91181C727741B87001247D9 /* Build configuration list for PBXProject "FPAQuickStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91181F927741B8D001247D9 /* Debug */,
+				D91181FA27741B8D001247D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D91181FB27741B8D001247D9 /* Build configuration list for PBXNativeTarget "FPAQuickStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91181FC27741B8D001247D9 /* Debug */,
+				D91181FD27741B8D001247D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D91181FE27741B8D001247D9 /* Build configuration list for PBXNativeTarget "FPAQuickStartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91181FF27741B8D001247D9 /* Debug */,
+				D911820027741B8D001247D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D911820127741B8D001247D9 /* Build configuration list for PBXNativeTarget "FPAQuickStartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D911820227741B8D001247D9 /* Debug */,
+				D911820327741B8D001247D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D91181C427741B87001247D9 /* Project object */;
+}

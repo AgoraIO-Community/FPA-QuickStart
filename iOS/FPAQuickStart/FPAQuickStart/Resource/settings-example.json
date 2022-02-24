@@ -1,0 +1,42 @@
+{
+  "app_id": "You App Id",
+  "app_token": "You App token",
+  "http_chain_info": {
+    "fallback": true,
+    "chain_info": [
+      {
+        "chain_id": 103,
+        "domain": "your-app-host.com",
+        "port": 443,
+        "fallback": true
+      },
+      {
+        "chain_id": 102,
+        "domain": "your-app-host.com",
+        "port": 80,
+        "fallback": true
+      },
+      {
+        "chain_id": 101,
+        "domain": "1.2.3.4",
+        "port": 80,
+        "fallback": true
+      },
+      {
+        "chain_id": 100,
+        "domain": "1.2.3.4",
+        "port": 443,
+        "fallback": true
+      }
+    ]
+  },
+  "transparentProxy_chain_info": {
+      "domain": "your-app-host.com",
+      "port": 111,
+      "chain_id": 100,
+      "fallback": true
+  },
+  "test_download_url" : "",
+  "test_upload_url" : "",
+  "transparentProxy_test_resource" : ""
+}
