@@ -1,41 +1,51 @@
-# 说明
+# Android 示例项目
 
-本工程代码是为Android开发人员提供一份集成 agora 全链路加速 FPA示例，其中涉及到的相关代码使用只能说明建议使用，并不代表对应的具体业务一定需要如此操作，具体代码可以根据自己的业务场景而定。需要更多的帮助可访问官方文档。
+## 简介
 
-## FPA 官方文档地址
-[https://docs.agora.io/cn/global-accelerator/agora_ga_overview?platform=Android](https://docs.agora.io/cn/global-accelerator/agora_ga_overview?platform=Android)
+该仓库包含了使用 FPA Android SDK 的示例项目。
 
-# 编译
-+ 依赖jitpack
-```shell
-    // root build.gradle 文件
-    buildscript {
-      repositories {
-          maven { url "https://jitpack.io" }
-      }
-    }
-```
+## 如何运行示例项目
 
-+ 添加依赖
-```shell
-    // project build.gradle 文件
-    implementation 'com.github.agorabuilder:fpa:0.1.12.0'
-```
-具体的版本依据实际情况而定
+### 前提条件
 
-+ 制作配置文件
-根据 assets 目录下的 `settings-example.json` 模版，制作一个自己对应的 `settings.json` 文件。    
-代码中涉及到一些内部私有(例如 appId chainId 和 代理服务器)信息，所以示例代码使用如下代码隔离：
-```java
-    if (BuildConfig.is_agora_demo) {
-        // business logic code
-    }
-```
+- 真实的 Android 设备或 Android 虚拟机（Android 4.3 或更高版本）。
+- Android Studio (推荐最新版)
 
-# agora 人 
+### 运行步骤
 
-+ `settings.json` 文件可以向 @daijinguo 索要
-+ 在 `local.properties` 文件中添加
-```groovy
-is_agora_demo=true
-```
+1. 在 Android Studio 中，开启 `/android`。
+2. 将项目与 Gradle 文件同步。
+3. 编辑 `android\app\src\main\assets\settings-example.json` 文件。
+
+   - `"app_id":` 填入你的 App ID。
+   - `"chain id":`填入你的全链路加速服务的 chain ID。
+   - `"domain":`填入你的全链路加速服务的源站域名。
+   - `"port":` 填入你的全链路加速服务的端口。
+
+   > 本示例仅支持开启 **App ID 鉴权** 的 Agora 项目。
+   > 参考 [开始使用 Agora 平台](https://docs.agora.io/cn/Agora%20Platform/get_appid_token) 了解如何获取 App ID。
+   > 参考 [开通全链路加速服务](https://docs.agora.io/cn/global-accelerator/enable_fpa) 了解如何获取 chain ID、源站域名和端口。
+
+4. 构建项目，在虚拟器或真实 Android 设备中运行项目，体验加速效果。
+
+## 反馈
+
+如果你有任何问题或建议，可以通过 issue 的形式反馈。
+
+## 参考文档
+
+- [全链路加速 FPA 产品概述](https://docs.agora.io/cn/global-accelerator/agora_ga_overview)
+- [FPA Android SDK API 参考](https://docs.agora.io/cn/global-accelerator/fpa_okhttp_api)
+
+## 相关资源
+
+- 你可以先参阅 [常见问题](https://docs.agora.io/cn/faq)
+- 如果你想了解更多官方示例，可以参考 [官方 SDK 示例](https://github.com/AgoraIO)
+- 如果你想了解声网 SDK 在复杂场景下的应用，可以参考 [官方场景案例](https://github.com/AgoraIO-usecase)
+- 如果你想了解声网的一些社区开发者维护的项目，可以查看 [社区](https://github.com/AgoraIO-Community)
+- 若遇到问题需要开发者帮助，你可以到 [开发者社区](https://rtcdeveloper.com/) 提问
+- 如果需要售后技术支持, 你可以在 [Agora Dashboard](https://dashboard.agora.io) 提交工单
+
+## 代码许可
+
+示例项目遵守 MIT 许可证。
