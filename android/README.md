@@ -8,7 +8,7 @@
 
 ### 前提条件
 
-- 真实的 Android 设备或 Android 虚拟机
+- 真实的 Android 设备或 Android 虚拟机（Android 4.3 或更高版本）。
 - Android Studio (推荐最新版)
 
 ### 运行步骤
